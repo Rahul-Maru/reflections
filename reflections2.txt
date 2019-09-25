@@ -10,13 +10,24 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    You only need to commit 1 or two files at a time, allowing you to break up the files into 1 commit per logical change
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    If you want to try something comletely new & crazy (crazier than amma) but you still want to continue working on the original files
+
 How do the diagrams help you visualize the branch structure?
+
+    You can use graphs to see what commits are in which branches
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Git combines the two files by comparing them with the commit where the branches split
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    Merging manually takes a ton of time and mistakes can happen very often. 
+    Merging automaticaly Can result in code not working or merging properly even without there being a conflict
